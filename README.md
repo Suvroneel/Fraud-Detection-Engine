@@ -25,6 +25,43 @@ requirements.txt
 
 ---
 
+## Model Results
+
+### Performance Metrics
+
+| Metric | XGBoost | Neural Network |
+|--------|---------|----------------|
+| Test AUC-ROC | 0.8947 | 0.4278 |
+| Test AUC-PR | 0.4962 | 0.0544 |
+| Validation AUC-ROC | 0.9145 | N/A |
+| Optimal Threshold | 0.7682 | N/A |
+| API Latency (mean) | 9.32ms | N/A |
+
+XGBoost was selected as the production model. See evaluation_report.md for full analysis.
+### Class Distribution
+![Class Distribution](reports/class_distribution.png)
+
+### Transaction Amount Distribution
+![Transaction Amount Distribution](reports/transaction_amount_distribution.png)
+
+### Daily Fraud Rate Over Time
+![Daily Fraud Rate Over Time](reports/temporal_fraud_rate.png)
+
+### Missing Value Analysis
+![Missing Value Analysis](reports/missing_value_analysis.png)
+
+### Fraud Rate by Product Category
+![Fraud Rate by Product Category](reports/product_fraud_rate.png)
+
+### SHAP Feature Importance
+![SHAP Feature Importance](reports/shap_summary.png)
+
+### SHAP Beeswarm Plot
+![SHAP Beeswarm Plot](reports/shap_beeswarm.png)
+
+### API Documentation
+![API Documentation](reports/api_docs_screenshot.png)
+
 ## Datasets
 
 ### IEEE-CIS Fraud Detection (Primary)
@@ -286,6 +323,15 @@ Retraining is triggered when:
 - The neural network training is compute-intensive. On CPU it may take 15-30 minutes. A GPU runtime (Google Colab or local) is recommended for the notebook.
 
 ---
+
+##  Contact
+
+**Author:** Suvroneel Nathak  
+**Email:** [suvroneelnathak213@gmail.com]  
+**LinkedIn:** [https://www.linkedin.com/in/suvroneel-nathak/](https://www.linkedin.com/in/suvroneel-nathak/) 
+
+**GitHub:** [@Suvroneel](https://github.com/Suvroneel)
+
 
 ## What This Is Not
 
