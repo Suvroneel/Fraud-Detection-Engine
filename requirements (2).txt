@@ -1,0 +1,16 @@
+fastapi
+uvicorn[standard]
+pydantic
+numpy
+pandas
+scikit-learn
+xgboost
+imbalanced-learn
+torch
+shap
+networkx
+scipy
+matplotlib
+seaborn
+joblib
+python-louvain
