@@ -123,6 +123,13 @@ This generates all artifacts in models/:
 - elliptic_graph_features.csv
 - global_graph_stats.pkl
 
+## Docker Hub
+
+The pre-built Docker image is available on Docker Hub:
+```bash
+docker pull suvroneelnathak/raptorx-fraud-detection-fraud-api
+docker-compose up
+```
 ### Step 3: Start the API
 
 ```bash
