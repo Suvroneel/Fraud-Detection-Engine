@@ -1,4 +1,4 @@
-# RaptorX Fraud Detection Engine
+#  Fraud Detection Engine
 
 A production-grade fraud detection system that ingests raw financial transaction data, engineers entity-level features from behavioral patterns, velocity anomalies, and graph-relationship signals, trains a fraud classification model, and exposes a real-time scoring API with explainability output.
 
